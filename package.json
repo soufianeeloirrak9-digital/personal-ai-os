@@ -1,0 +1,23 @@
+{
+  "name": "personal-ai-os",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Personal AI OS with multi-harness orchestration and local-first free-model routing",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js",
+    "lint": "eslint .",
+    "test": "jest --runInBand"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "pg": "^8.11.5",
+    "redis": "^4.6.13",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "jest": "^29.7.0"
+  }
+}
